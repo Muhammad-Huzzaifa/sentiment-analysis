@@ -1,8 +1,9 @@
 import pickle
 from pathlib import Path
 
-models_dir = Path("../models/")
-dev_data_dir = Path("../data/development/")
+base_dir = Path(__file__).parent.parent
+models_dir = base_dir / "models"
+dev_data_dir = base_dir / "data" / "development"
 
 with open(models_dir / "sentiment_model.pkl", 'rb') as f:
     sentiment_model = pickle.load(f)
