@@ -1,4 +1,3 @@
-import os
 import kaggle
 from pathlib import Path
 
