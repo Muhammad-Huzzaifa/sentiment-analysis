@@ -1,3 +1,9 @@
 kaggle
 pandas
+numpy
 nltk
+scipy
+textblob
+scikit-learn
+matplotlib
+seaborn
