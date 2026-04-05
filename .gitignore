@@ -1,3 +1,11 @@
 .venv
 __pycache__
 .ipynb_checkpoints
+data/raw/*
+data/processed/*
+data/development/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/development/.gitkeep
+models/*
+!models/.gitkeep
